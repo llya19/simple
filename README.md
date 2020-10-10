@@ -8,5 +8,9 @@ sudo -u postgres psql postgres<br>
 
 Enter new password: <br>
 
-
+$ git clone https://github.com/hexlet-components/php-eloquent-blog
+$ cd php-eloquent-blog
+$ make setup # установка зависимостей
+$ make test # запуск тестов
+# тут побегут SQL-запросы
 
